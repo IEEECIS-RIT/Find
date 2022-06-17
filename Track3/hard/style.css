@@ -1,0 +1,28 @@
+* {
+    font-family: "Dancing Script", cursive;
+    font-family: "Roboto Slab", serif;
+}
+
+.main-image {
+    width: 20vw;
+    display: block;
+}
+
+img {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+p {
+    width: 70vw;
+    font-size: x-large;
+}

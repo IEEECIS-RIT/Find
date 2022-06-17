@@ -1,0 +1,36 @@
+    * {
+        font-family: 'New Super Mario Font U', sans-serif;
+    }
+    
+    body {
+        background-color: #A7ABD8;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    
+    .heading {
+        color: white;
+        font-size: 120px;
+        margin-top: 2vh;
+        text-align: center;
+    }
+    
+    .d-down {
+        width: 20vw;
+        height: 20vw;
+        align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .p-up {
+        display: none;
+        background: url(./qr_code.png);
+        position: absolute;
+        background-size: cover;
+        width: 20vw;
+        height: 20vw;
+        top: 0;
+        left: 0;
+    }

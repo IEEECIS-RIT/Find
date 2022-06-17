@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Slab:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Forgotten</title>
+  </head>
+  <body>
+    <div class="clue">
+      <center>
+        <img class="header-img" src="./1.png" alt="" />
+        <h4>
+          Lil Nas X has forgotten the password to his computer. You need to
+          crack his password.
+          <br />
+          Thankfully, Mr. Lil has provided you an audio clip and an image, which
+          is all that he remembers about his password.
+          <br />
+          Crack it.
+        </h4>
+        <div>
+          <img class="main-image" src="./1.jpg" />
+          <audio controls class="hint1">
+            <source src="./audio1.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <form>
+            <label class="input-title">Password:</label>
+            <input
+              class="input-field"
+              type="text"
+              name="password"
+              id="password"
+              autofocus
+            />
+
+            <input class="input-button" type="submit" value="Check" id="input1" />
+            <h3 id="hints"></h3>
+          </form>
+        </div>
+      </center>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

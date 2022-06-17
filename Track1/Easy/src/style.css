@@ -1,0 +1,56 @@
+.insta {
+    float: right;
+    padding-top: 20px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-right: 5vh;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    background-color: orangered;
+    color: white;
+}
+
+.vCenter {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 100px
+}
+
+.numInput {
+    text-align: center;
+    font-size: 31px;
+    width: 100px;
+    height: 61px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.guessButton {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}

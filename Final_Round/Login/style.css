@@ -1,0 +1,17 @@
+form {
+    display: inline-block;
+    justify-content: center;
+
+}
+
+body{
+    padding-top: 10vh;
+    background-color: royalblue;
+    text-align: center;
+    font-size: x-large;    
+    
+}
+
+.pro{
+margin-bottom: 16px;
+}
